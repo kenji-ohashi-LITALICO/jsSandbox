@@ -16,7 +16,7 @@ let clearConsole = null; // 実行結果を削除するbutton タグ
 /**
  * Monaco 読み込み and 初期化
  */
-const codeStr = ``;
+// const codeStr = ``;
 
 require.config({
   paths: { vs: 'js/package/dev/vs' },
