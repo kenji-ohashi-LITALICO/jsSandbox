@@ -13,7 +13,7 @@ window.addEventListener('message', (e) => {
     eval(code);
     e.source.postMessage(
       {
-        result: { time: timeStr, success: true, code: sbTag.textContent },
+        result: { time: timeStr, success: true, code: sbTag.innerHTML },
         isSandbox: true,
       },
       e.origin
